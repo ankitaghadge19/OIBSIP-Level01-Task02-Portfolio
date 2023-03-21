@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+    <script src="https://kit.fontawesome.com/4201652296.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="" class=""logo>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="profileImg">
+            <div class="header-text">
+               
+                <br>
+                <h1>Hello,</h1>
+                <br>
+                <h1> I'm <span> Ankita Ghadge</span></h1>
+                <br>
+                <p >Web Developer.</p>
+            </div>
+        </div>
+        
+    </div>
+<!-------------------about--------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <br>
+                    <p id="p">I am a student of Third Year pursuing Bachelor's Degree in Computer Science under Savitribai Phule Pune University at Dr. D. Y. Patil Institute of Technology Pimpri, Pune.</p>
+
+                    <div class="tab-title">
+                        <p id="p" class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p id="p" class="tab-links" onclick="openTab('experiance')">Experiance</p>
+                        <p id="p" class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Html</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>MERN Stack</span></li>
+                            <li><span>Java</span></li>
+                            <li><span>C++</span></li>
+                            <li><span>DBMS</span></li>
+                            <li><span>.NET Framework</span></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li><span>Feb-2022 </span><br><br>Web Developement Intern at Spark Foundation.</li>
+                        </ul>
+                        <ul>
+                            <li><span>Feb-2023</span><br><br>Web Developement Intern at Intern Crowd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br><br> SSC from Pune at Kanya Vidyalay.</li>
+                            <li><span>2020</span><br><br> HSC from Pune at Jai Hind Junior Collage.</li>
+                            <li><span>2021-2024</span><br><br> B.E. in Computer Science from Pune at Dr. D. Y. Patil Institute Of Technology Pimpri.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------------Services------------------------------------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <!-- <p>The role is to create a website which is visually appealing and easy to navigate. I try to make such a websites that meet user expectation and also offer easy access points with no loading issues.</p> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Developer</h2>
+                    <p>Core & Advanced </p>
+                    <!-- <p>My responsibility is to design, development, and management of Java-based applications.</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------Portfolio----------------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/BankingWebsite.png" alt="">
+                    <div class="layer">
+                        <h3>Basic Banking Website</h3>
+                        <!-- <p>Help to transfer money to the different customers and also show the transaction history for every customer.</p> -->
+                        <div class="GitHublinks">
+                            <a target="_blank" href="https://github.com/ankitaghadge19/BasicBankingSystem"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ResumeBuilder.png" alt="">
+                    <div class="layer">
+                        <h3>Resume Builder Website</h3>
+                        <!-- <p>Provides interactive resume templates that helps you create a professional resume with an up-to-date design. </p> -->
+                        <div class="GitHublinks">
+                            <a  target="_blank" href="https://github.com/ankitaghadge19/ResumeBuilder"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/TextUtils.png" alt="">
+                    <div class="layer">
+                        <h3>Text-Utils Website</h3>
+                        <!-- <p>Helps to customize/manipulate the text. It provide operations like Uppercase, Lowercase, Clear, Copy etc.  </p> -->
+                        <div class="GitHublinks">
+                            <a  target="_blank" href="https://github.com/ankitaghadge19/TextUtils-reactjs"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/NewsMonkey.png" alt="">
+                    <div class="layer">
+                        <h3>Monkey News Website</h3>
+                        <!-- <p>Offer you current updates in different fields like Business, Entertainment, Health, Science, Sports etc.</p> -->
+                        <div class="GitHublinks">
+                            <a  target="_blank" href="https://github.com/ankitaghadge19/NewsApp-reactjs"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ActionGame.png" alt="">
+                    <div class="layer">
+                        <h3>Action Game</h3>
+                        <!-- <p>It is an entertainment website which is build using various javascript concepts.</p> -->
+                        <div class="GitHublinks">
+                            <a  target="_blank" href="https://github.com/ankitaghadge19/Action-Game"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/SpotifyClone.png" alt="">
+                    <div class="layer">
+                        <h3>Spotify Clone Website</h3>
+                        <!-- <p>It is an entertainment app where you can listen your favourite music.</p> -->
+                        <div class="GitHublinks">
+                            <a  target="_blank" href="https://github.com/ankitaghadge19/Spotify-Clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/WeatherForecast.png" alt="">
+                    <div class="layer">
+                        <h3>Weather Forecast Website</h3>
+                        <!-- <p>Help to track weather forecasts and current conditions in real-time. It shows the temperature in degree celcious. </p> -->
+                        <div class="GitHublinks">
+                            <a  target="_blank" href="https://github.com/ankitaghadge19/WeatherApp-reactjs"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/BirthdayRemainderApp.png" alt="">
+                    <div class="layer">
+                        <h3>Birthday Remainder Website</h3>
+                        <!-- <p>Helps you to keep track and view a countdown of upcoming birthdays also ypu can make cards for each.</p> -->
+                        <div class="GitHublinks">
+                            <a  target="_blank" href="https://github.com/ankitaghadge19/Birthday-Remainder-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/GalaxyTravel.png" alt="">
+                    <div class="layer">
+                        <h3>Galaxy Travel Website</h3>
+                        <!-- <p>It is a Landing Page which has nav bar, header and footer.</p> -->
+                        <div class="GitHublinks">
+                            <a  target="_blank" href="https://github.com/ankitaghadge19/oibsip_task_1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------------------------------------------contact------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ankitaghadge03@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9767754276</p>
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.linkedin.com/in/ankita-ghadge-8438b1203"><i class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://twitter.com/ankita_ghadge19?t=cOT4rx3jba80LuOmOkrBwg&s=09"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a target="_blank" href="https://github.com/ankitaghadge19"><i class="fa-brands fa-square-github"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/ankita.ghadge.737"><i class="fa-brands fa-square-facebook"></i></a>
+                    </div>
+                    <a class="btn btn2" href="resume.pdf" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Ankita.</p>
+        </div>
+    </div>
+
+
+
+<!---------------------------------------JavaScript--------------------------------------------------------------->
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabName){
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("active-link");
+            }
+            for(tabContent of tabContents){
+                tabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+        
+    </script>
+
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function openmenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyfzUl9GhwXh6HS0xPN7swXu2ibVn_7RzFVsDC730s542CfQg7kA4xhtM_99b3VneOl/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+    
+</body>
+</html>
